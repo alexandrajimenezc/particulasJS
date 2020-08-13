@@ -72,10 +72,11 @@ body {
 .container-description{
     display: flex;
     flex-direction: column;
-/* 
-    border:1px solid red; */
+    justify-content: center;
+    align-items: stretch;
+   /*  border:1px solid red; */ 
     width: 100%;
-    height: 530px;
+    height: 79vh;
 }
 .title{
 /* border: 1px solid aqua; */
@@ -236,9 +237,9 @@ body {
         
     }
     .container{
-        height: 700px;
+        min-height: 700px;
         justify-content: center;
-       margin-left: 22%;
+    align-self: center;
     }
     .container-description{
         display: flex;
@@ -249,5 +250,8 @@ body {
     }
     .container-description .title span:last-child {
         font-size: 2.8rem;
+    }
+    .container-description article a{
+        font-size: 15px;
     }
 }
